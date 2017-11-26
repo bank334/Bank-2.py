@@ -84,7 +84,7 @@ helpMessage ="""    =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ
 􀜁􀇔􏿿 [Staff add/remove @]
          ✯==== Creator ====✯
 	
-  http://line.me/ti/p/~tobyg74
+  http://line.me/ti/p/~
 """
 helo=""
 
