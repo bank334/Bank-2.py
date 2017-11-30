@@ -140,7 +140,7 @@ def RECEIVE_MESSAGE(op):
         print ("\n\nRECEIVE_MESSAGE\n\n")
         return
 
-tracer.addOpInterrupt(26, RECEIVE_MESSAGE)
+tracer.addOpInterrupt(25, RECEIVE_MESSAGE)
 
 def SEND_MESSAGE(op):
     msg = op.message
