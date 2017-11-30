@@ -268,7 +268,33 @@ def SEND_MESSAGE(op):
                       sendMessage(manusia, (bctxt))                                         
                     
          #-------------Fungsi BC Finish-------------------#
-
+#-----------------------------------------------------------            
+                elif msg.text.lower() == 'ใครแอบ':
+                    cl.sendText(msg.to, "Set point.")
+                    try:
+                        del wait2['readPoint'][msg.to]
+                        del wait2['readMember'][msg.to]
+                    except:
+                           pass
+                    now2 = datetime.now()
+                    wait2['readPoint'][msg.to] = msg.id
+                    wait2['readMember'][msg.to] = ""
+                    wait2['setTime'][msg.to] = datetime.now().strftime('%Y-%m-%d %H:%M')
+                    wait2['ROM'][msg.to] = {}
+                    print wait2
+                elif msg.text.lower() == 'ออกมา':
+                    if msg.to in wait2['readPoint']:
+                        if wait2["ROM"][msg.to].items() == []:
+                            chiya = ""
+                        else:
+                            chiya = ""
+                            for rom in wait2["ROM"][msg.to].items():
+                                print rom
+                                chiya += rom[1] + "\n"
+                        cl.sendText(msg.to, "╔═══════════════%s\n╠════════════════\n%s╠═══════════════\n║Readig point creation:\n║ [%s]\n╚════════════════"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                    else:
+                        cl.sendText(msg.to, "Ketik [Check] dulu dudul Baru bilang [Recheck]")
+#-----------------------------------------------------------
          #-------------Fungsi List group Start---------------------#                      
 
                 if msg.text in ["Gclist","List gc","List groupGc list"]:              
