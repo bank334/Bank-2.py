@@ -15,7 +15,7 @@ print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅]=====
+helpMessage ="""        =====[ชุดคำสั่งบอท]=====
 
 􀜁􀇔􏿿 [Id]
 􀜁􀇔􏿿 [Mid]
@@ -26,7 +26,7 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
 􀜁􀇔􏿿 [Mid 「mid」
 􀜁􀇔􏿿 [Group id]
 􀜁􀇔􏿿 [Group cancel]
-􀜁􀇔􏿿 [Tagall]
+􀜁􀇔􏿿 [แท็ค]
 􀜁􀇔􏿿 [แอบ]
 􀜁􀇔􏿿 [ส่อง]
 􀜁􀇔􏿿 [album 「id」]
@@ -54,7 +54,7 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
 􀜁􀇔􏿿 [Mybio: 「Isi Bio」]  
 􀜁􀇔􏿿 [Allbio: 「Isi Bio bot」] 
   
-           [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
+           [ชุดล็อค]
 
 􀜁􀇔􏿿 [Link on]
 􀜁􀇔􏿿 [Link off] 
@@ -76,7 +76,7 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
 􀜁􀇔􏿿 [Cancelprotect on]
 􀜁􀇔􏿿 [Staff add/remove @]
   
-            ✯==== Creator ====✯
+            ✯====[B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̅̅ ̲̲̅̅&̲̲̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅]====✯
 	
 		http://line.me/ti/p/~bank60.com
    
@@ -545,7 +545,7 @@ def bot(op):
                     cl.sendText(msg.to,"􀜁􀇔􏿿Update Names👉 " + string + "👈")
 
 #-------------Fungsi Tag All Start---------------#
-            elif msg.text in ["Cipok","Tagall"]:
+            elif msg.text in ["Cipok","แท็ค"]:
                   group = cl.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
 
