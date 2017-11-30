@@ -75,20 +75,10 @@ helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̲̅�
 􀜁􀇔􏿿 [Inviteprotect on]
 􀜁􀇔􏿿 [Cancelprotect on]
 􀜁􀇔􏿿 [Staff add/remove @]
-
-
-            􀜁􀇔􏿿 Protect 􀜁􀇔􏿿
-
-􀜁􀇔􏿿 Kb all
-􀜁􀇔􏿿 Kb Key
-􀜁􀇔􏿿 Kb1-6 in
-􀜁􀇔􏿿 Kb1-6 bye
-􀜁􀇔􏿿 Respons
-􀜁􀇔􏿿 Bye all        
   
             ✯==== Creator ====✯
 	
-		http://line.me/ti/p/~0647706747
+		http://line.me/ti/p/~bank60.com
    
 	        ⋆⋆[Selfbot Thailand]⋆⋆
 """
@@ -2307,7 +2297,7 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by : http://line.me/ti/p/~0647706747")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by : http://line.me/ti/p/~bank60.com")
             print "Like"
           except:
             pass
