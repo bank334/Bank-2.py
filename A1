@@ -821,7 +821,35 @@ def bot(op):
                     cl.sendText(msg.to,"Diperbarui👈")
                 else:
                     cl.sendText(msg.to,"Silahkan Aktifkan Nama")
-                    
+            elif msg.text == "แอบ":
+                    cl.sendText(msg.to, "hmm..")
+                    ki.sendText(msg.to, "Coba..")
+                    kk.sendText(msg.to, "aku mau..")
+                    kc.sendText(msg.to, "Check sider..")
+                    try:
+                        del wait2['readPoint'][msg.to]
+                        del wait2['readMember'][msg.to]
+                    except:
+                        pass
+                    wait2['readPoint'][msg.to] = msg.id
+                    wait2['readMember'][msg.to] = ""
+                    wait2['ROM'][msg.to] = {}
+                    print wait2
+            elif msg.text == "ส่อง":
+                    if msg.to in wait2['readPoint']:
+                        if wait2["ROM"][msg.to].items() == []:
+                            chiya = ""
+                        else:
+                            chiya = ""
+                            for rom in wait2["ROM"][msg.to].items():
+                                print rom
+                                chiya += rom[1] + "\n"
+
+                        cl.sendText(msg.to, "== Bakekok Sider == %s\nthat's it\n\nPeople who have ignored reads\n%skampret lo sider. ♪\n\nReading point creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                    else:
+                        cl.sendText(msg.to, "An already read point has not been set.\n「set」you can send ♪ read point will be created ♪")					
+	
+#-----------------------[Add Staff Section]------------------------
             elif "Lurking" in msg.text:
                 if msg.toType == 2:
                     cl.sendText(msg.to, "Set reading point:" + datetime.now().strftime('\n%Y-%m-%d %H:%M:%S'))
