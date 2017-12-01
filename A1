@@ -17,13 +17,13 @@ helpMessage ="""""" ✞ BANK LINE BOT ✞
 
 ✞[Mid]
 ✞[Gid]
-✞[Ginfo]
+✞[ยกเชิน]
 ✞[Gn 〘Namagroup〙 ]
 ✞[Qr]
 ✞[Oqr]
 ✞[Invite ❰Mid❱ ]
 ✞[Cqr]
-✞[Tagall]
+✞[แท็ค]
 ✞[Sayonara]
 ✞[Cancel all]
 ✞[Me]
@@ -204,6 +204,29 @@ def bot(op):
             if msg.toType == 1:
                 if wait["leaveRoom"] == True:
                     cl.leaveRoom(msg.to)
+	 ----------------- NOTIFED MEMBER OUT GROUP
+        if op.type == 15:
+            if op.param2 in bot1:
+                return
+            cl.sendText(op.param1,"ออกอีกแล้ว " + cl.getContact(op.param2).displayName + "  โชคดีน่ะ\n¯\_(ツ)_/¯")
+            print ("MEMBER HAS LEFT THE GROUP")
+#------------------ KICK OUT FORM GROUP
+        if op.type == 19:
+            if op.param2 in bot1:
+                return
+            cl.sendText(op.param1,cl.getContact(op.param2).displayName + " ได้ลบคุณออกจากกลุ่ม")
+            print "MEMBER KICK OUT FORM GROUP"
+# ----------------- NOTIFED MEMBER JOIN GROUP
+        if op.type == 17:
+            if op.param2 in bot1:
+                return
+            ginfo = cl.getGroup(op.param1)
+            cl.sendText(op.param1, "ยินดีต้อนรับ 😊" + cl.getContact(op.param2).displayName + " สู่กลุ่ม " + "👉" + str(ginfo.name) + "👈")
+            print "MEMBER HAS JOIN THE GROUP"
+            if msg.contentType == 16:
+                url = msg.contentMetadata["postEndUrl"]
+                cl.like(url[25:58], url[66:], likeType=1001)	    
+		    
             if msg.contentType == 16:
                 url = msg.contentMetadata["postEndUrl"]
                 cl.like(url[25:58], url[66:], likeType=1001)
@@ -313,7 +336,7 @@ def bot(op):
                 msg.text = None
                 cl.sendMessage(msg)
 
-            elif msg.text in ["Cancel","cancel"]:
+            elif msg.text in ["Cancel","cancel","ยกเชิน"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     if group.invitee is not None:
