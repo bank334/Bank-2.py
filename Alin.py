@@ -13,65 +13,25 @@ print "===[Login Success]==="
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""||===== F O R   G R U P =====||
-||��✒ Cancel         - Cancel All Pending Grup
-||��✒ Invite         - Invite Via Send Contact
-||��✒ Invite:        - Via MID
-||��✒ Unban @   	  - Via Tag
-||��✒ Ban @   		  - Via Tag
-||��✒ Clear ban      - Delete All Blacklist
-||��✒ Link on        - Open QR
-||��✒ Link off       - Close QR
-||��✒ Gurl           - Open QR And Get Link
-||��✒ Url            - Get QR Link
-||��✒ Gname          - Change Name Group
-||��✒ Banlist        - Cek Tersangka Kriminal
-||��✒ Banlist mid    - Cek Blackist Mid
-||��✒ Ratakan		  - Meratakan Grup
-||��✒ Kick @         - Via Tag
-||��✒ Kick:          - Via MID
-||===== F O R  Y O U =====||
-||��✒ Me
-||��✒ Mymid
-||��✒ Mid @          - Get MID 
-||��✒ Broadcast: 	  - [Broadcast: Teks] Broadcast Contact
-||��✒ Grupbc: 		  - [Grupbc: Teks] Broadcast Grup
-||��✒ Spam on/off 	  - [Spam on/off Jumlah Teks] Spam Grup/Chat
-||��✒ Speed          - Tes Speed
-||��✒ Mycopy @       - Copy Profile 
-||��✒ Mybackup @     - Backup Profile
-||��✒ Getpp @        - Mendapatkan Foto Profile
-||��✒ Getcover @     - Mendapatkan Foto Header
-||��✒ Getbio @    	  - Mendapatkan Bio
-||��✒ Getinfo @      - Mendapatkan Info
-||��✒ Grup image 	  - Mendapatkan Foto Grup
-||��✒ Gcreator 		  - Melihat Pembuat Grup
-||��✒ Mention         - Mention All Member Group
-||��✒ Lurking        - Set Point Read
-||��✒ Result         - Reading Point
-||��✒ Ginfo          - Info Grup
-||��✒ Glist          - Info All Grup
-||========================||
-||===== S E T T I G S =====||          
-|| [Like:on/off]     
-|| [Like:me]     
-|| [Like:friend]     
-|| [Add on/off] 	 
-|| [Auto join on/off] 	   
-|| [Contact on/off] 	
-|| [Leave on/off]  
-|| [Share on/off]           
-|| [Add on/off] 		   
-|| [Jam on/off]				   
-|| [Com on/off]	
-||===== P R O T E C T =====||        
-|| [Easy mode]   
-|| [Hard mode]    
-|| [Protect on]			   
-|| [Qrprotect on/off]			   
-|| [Inviteprotect on/off]			   
-|| [Cancelprotect on/off]	
-||======= FOR ADMIN =======||
+helpMessage ="""✞ SELFBOT PHET HACK BOT ✞
+
+✞[Mid]
+✞[Gid]
+✞[Ginfo]
+✞[Gn 〘Namagroup〙 ]
+✞[Qr]
+✞[Oqr]
+✞[Invite ❰Mid❱ ]
+✞[Cqr]
+✞[Tagall]
+✞[Sayonara]
+✞[Cancel all]
+✞[Me]
+✞[Time]
+✞[Gift]
+✞[Tag@]
+✞[Group Bc]
+✞[Creator]
 """
 helo=""
 
