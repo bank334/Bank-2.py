@@ -51,7 +51,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""
 
-Command For Bii
+    ===[B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̲̲̲̲̅̅̅̅̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅]===
 
 ✌Me
 ✌Id
@@ -75,7 +75,7 @@ Command For Bii
 ✌Gbroadcast text
 ✌Reject
 
-Command For Group
+     ===[B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̲̲̲̲̅̅̅̅̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅]===
 
 ✌Creator
 ✌Gn: text
@@ -123,8 +123,7 @@ Command For Group
 ✌.reboot
 ✌Wikipedia
 ✌Cleanse
-
-Command For Bot
+   ===[B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̲̲̲̲̅̅̅̅̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅]===
 
 ✌Ybot
 ✌Ycancel
@@ -144,12 +143,11 @@ Command For Bot
 ✌Y1-Y5 bye
 ✌Y1-Y2 link on/off
 
-Command For Protect
-
 ✌Qr on/off
 ✌Backup on/off
 ✌Protect On/off
 ✌Namelock On/off
+    ===[B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̲̲̲̲̅̅̅̅̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅]===
  """
 
 KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj]
