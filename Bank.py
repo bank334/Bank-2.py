@@ -46,42 +46,6 @@ kj = LINETCR.LINE()
 kj.login(token="EnEAedLdibLoONaMGnK6.Zg2BQYNPKl2ksz44ZIytHG.DN8ar+4Il2MgVoaQ2Z53eFn3uUIEhk3iiPEpbwWPfBk=")
 kj.loginResult()
 
-kl = LINETCR.LINE()
-kl.login(token="EnutRFKDWhrhTfkmXbo6.lEc1JaEVsI3l5xpWt5mAnG.x3HmElMPxHJz4X7H3hYa8KqEoaiNFIeDfFdRAGtP91Q=")
-kl.loginResult()
-
-km = LINETCR.LINE()
-km.login(token="EnVpepsOV5mXyKu0QfZ6.muq18IWfKt5SEgFXA9fxfG.g0jDSEPT2yonBE4Xr9Ois1Se98T1Wyc7Xmt6l3Qf+CY=")
-km.loginResult()
-
-kn = LINETCR.LINE()
-kn.login(token="EncsNNIon04D5fsfBLK7./hD97gr5Xe1yxI05XUWpLW.DS9b4TgUIkCkYuRyCHpR3WYlbk7BQYMeJQFgwbyM9kg=")
-kn.loginResult()
-
-ko = LINETCR.LINE()
-ko.login(token="EnZbJaYLpeju4gDp6p16.jNAlelBFImiLiQ74z7TQLG.oJ9MFipwshDCwjRTuo4YiP62dvhK4seLO5eswqiok2A=")
-ko.loginResult()
-
-kp = LINETCR.LINE()
-kp.login(token="EnLP2RWQwCI5pQiys4E6.JshQn3mNrRt2A6dgNKEFjG.KwxHyEsfNCb1QIj+M/jTMBYuZNgTE7j43498PgkGDq8=")
-kp.loginResult()
-
-kq = LINETCR.LINE()
-kq.login(token="EnXAAKwYb7Ypf4msjkIa.O5l+/QmuY6G/wgyx2fh9EG.cK7F5BNAtPBsyNLeJaMEofAxa/PBZINbLUMrYML5BKM=")
-kq.loginResult()
-
-kr = LINETCR.LINE()
-kr.login(token="En30RAuEqV3Of0ffNFk7.EOr9BRGLhQ4vTNqpFe1hfW.oCAUGCHiDramWgJlkcdU3tTJODRJEB10Sq4/LXOo7Ec=")
-kr.loginResult()
-
-ks = LINETCR.LINE()
-ks.login(token="Enet1M8ZA9Khg7DMeoN5.L1HeXTaxon2Sz1CLgvtfzq.lqwb5ibFWDEIqlis6gNOihSL9fLljv2MR6wYCxOQeMk=")
-ks.loginResult()
-
-kt = LINETCR.LINE()
-kt.login(token="Eng8t5wROkreLDTDSfR1.Rp5lRKgcZmlY4wRBeDTpaq.hq5XIi1r1qffuANiD7WmnMiHYKcZ5+5GZSTwOiZPruY=")
-kt.loginResult()
-
 print "Bii Bot"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -164,7 +128,7 @@ Command For Bot
 
 ✌Ybot
 ✌Ycancel
-✌Y1-Y18 Contact Bot
+✌Y1-Y9 Contact Bot
 ✌Y1-Y2 tl:
 ✌Y1-Y2 say
 ✌Y1-Y2 tag
@@ -172,7 +136,7 @@ Command For Bot
 ✌Y1-Y3 mid
 ✌Y1-Y2 gurl
 ✌Y1-Y5 gift
-✌Y1-Y18 rename:
+✌Y1-Y9 rename:
 ✌All: rename all:
 ✌Allbio: Isi bio:
 ✌Y1-Y10 rgroup
@@ -188,7 +152,7 @@ Command For Protect
 ✌Namelock On/off
  """
 
-KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
+KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -199,15 +163,6 @@ Fmid = kf.getProfile().mid
 Gmid = kg.getProfile().mid
 Hmid = kh.getProfile().mid
 Jmid = kj.getProfile().mid
-Lmid = kl.getProfile().mid
-Mmid = km.getProfile().mid
-Nmid = kn.getProfile().mid
-Omid = ko.getProfile().mid
-Pmid = kp.getProfile().mid
-Qmid = kq.getProfile().mid
-Rmid = kr.getProfile().mid
-Smid = ks.getProfile().mid
-Tmid = kt.getProfile().mid
 protectname = []
 protecturl = []
 protection = []
@@ -327,60 +282,6 @@ backup.pictureStatus = contact.pictureStatus
 
 contact = kj.getProfile()
 backup = kj.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kl.getProfile()
-backup = kl.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = km.getProfile()
-backup = km.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kn.getProfile()
-backup = kn.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = ko.getProfile()
-backup = ko.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kp.getProfile()
-backup = kp.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kq.getProfile()
-backup = kq.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kr.getProfile()
-backup = kr.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = ks.getProfile()
-backup = ks.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kt.getProfile()
-backup = kt.getProfile()
 backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
@@ -946,7 +847,7 @@ def bot(op):
             if not op.param2 in Bots:
               if wait["qr"] == True:  
                 try:
-                    klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj,kn,ko,kp,kq,kr,ks,kt]
+                    klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj]
                     kicker = random.choice(klist) 
                     G = kicker.getGroup(op.param1)
                     G.preventJoinByTicket = True
@@ -957,7 +858,7 @@ def bot(op):
             if not op.param2 in Bots:
               if wait["protectionOn"] == True:
                  try:                    
-                    klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj,kn,ko,kp,kq,kr,ks,kt]
+                    klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj]
                     kicker = random.choice(klist) 
                     G = kicker.getGroup(op.param1)
                     G.preventJoinByTicket = True
@@ -972,7 +873,7 @@ def bot(op):
             I = G.creator
             if not op.param2 in Bots:
                 if wait["protectionOn"] == True:  
-                    klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj,kn,ko,kp,kq,kr,ks,kt]
+                    klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj]
                     kicker = random.choice(klist)
                     G = kicker.getGroup(op.param1)
                     if G is not None:
@@ -1003,7 +904,7 @@ def bot(op):
                 if not op.param2 in Bots:
                   if wait["protectionOn"] == True:  
                    try:
-                       klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj,kn,ko,kp,kq,kr,ks,kt]
+                       klist=[ki,kk,kc,kd,ke,kf,kg,kh,kj]
                        kicker = random.choice(klist)
                        G = kicker.getGroup(op.param1)
                        G.preventJoinByTicket = False
@@ -2413,13 +2314,7 @@ def bot(op):
                 kg.sendMessage(msg)
                 kh.sendMessage(msg)
                 kj.sendMessage(msg)
-                kn.sendMessage(msg)
-                ko.sendMessage(msg)
-                kp.sendMessage(msg)
-                kq.sendMessage(msg)
-                kr.sendMessage(msg)
-                ks.sendMessage(msg)
-                kt.sendMessage(msg)
+                
 #==================================================
             elif "All:" in msg.text:
                 string = msg.text.replace("All:","")
