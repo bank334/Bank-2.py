@@ -89,103 +89,103 @@ helpMessage ="""
 
 Command For Bii
 
-Me
-Id
-Mid
-Gift
-Mid @
-Cn: Display Name
-Cc: Clock Name
-Mc:
-Tl: text
-Auto join: on/off
-Auto add: on/off
-Auto leave: on/off
-Clock: on/off
-Share on
-Add message: text
-Message:
-Add comment: text
-Comment: 
-Cbroadcast text
-Gbroadcast text
-Reject
+✌Me
+✌Id
+✌Mid
+✌Gift
+✌Mid @
+✌Cn: Display Name
+✌Cc: Clock Name
+✌Mc:
+✌Tl: text
+✌Auto join: on/off
+✌Auto add: on/off
+✌Auto leave: on/off
+✌Clock: on/off
+✌Share on
+✌Add message: text
+✌Message:
+✌Add comment: text
+✌Comment: 
+✌Cbroadcast text
+✌Gbroadcast text
+✌Reject
 
 Command For Group
 
-Creator
-Gn: text
-Invite: mid
-Invite:on Send contact
-Mybot
-Allgift 
-All mid
-Cancel
-Link on/off
-ginfo
-Gurl
-Glist
-Say
-Set
-Gcancel: number
-Masuk / Join
-Sayang
-Beb
-Cinta
-Sayang pulang
-Pulang
-Ban @ target
-Uban @ target
-Ban -> send contact
-Unban -> send contact
-Comment bl/wl
-Banlist
-Cekban
-Clear ban
-Kill
-Kill ban
-Speed
-Mentionall
-Nk @ target
-Tk @ target
-Ambilin @ Steal dp target
-Sampul @ Steal cover target
-Copy @ All bot copy target
-Mycopy @ Copy target profile
-Keluar @ target
-music
-.lyric
-.instagram
-.reboot
-Wikipedia
-Cleanse
+✌Creator
+✌Gn: text
+✌Invite: mid
+✌Invite:on Send contact
+✌Mybot
+✌Allgift 
+✌All mid
+✌Cancel
+✌Link on/off
+✌ginfo
+✌Gurl
+✌Glist
+✌Say
+✌Set
+✌Gcancel: number
+✌Masuk / Join
+✌Sayang
+✌Beb
+✌Cinta
+✌Sayang pulang
+✌Pulang
+✌Ban @ target
+✌Uban @ target
+✌Ban -> send contact
+✌Unban -> send contact
+✌Comment bl/wl
+✌Banlist
+✌Cekban
+✌Clear ban
+✌Kill
+✌Kill ban
+✌Speed
+✌Mentionall
+✌Nk @ target
+✌Tk @ target
+✌Ambilin @ Steal dp target
+✌Sampul @ Steal cover target
+✌Copy @ All bot copy target
+✌Mycopy @ Copy target profile
+✌Keluar @ target
+✌music
+✌.lyric
+✌.instagram
+✌.reboot
+✌Wikipedia
+✌Cleanse
 
 Command For Bot
 
-Ybot
-Ycancel
-Y1-Y18 Contact Bot
-Y1-Y2 tl:
-Y1-Y2 say
-Y1-Y2 tag
-Y1-Y2 invite:
-Y1-Y3 mid
-Y1-Y2 gurl
-Y1-Y5 gift
-Y1-Y18 rename:
-All: rename all:
-Allbio: Isi bio:
-Y1-Y10 rgroup
-Y1-Y5 join
-Y1-Y5 bye
-Y1-Y2 link on/off
+✌Ybot
+✌Ycancel
+✌Y1-Y18 Contact Bot
+✌Y1-Y2 tl:
+✌Y1-Y2 say
+✌Y1-Y2 tag
+✌Y1-Y2 invite:
+✌Y1-Y3 mid
+✌Y1-Y2 gurl
+✌Y1-Y5 gift
+✌Y1-Y18 rename:
+✌All: rename all:
+✌Allbio: Isi bio:
+✌Y1-Y10 rgroup
+✌Y1-Y5 join
+✌Y1-Y5 bye
+✌Y1-Y2 link on/off
 
 Command For Protect
 
-Qr on/off
-Backup on/off
-Protect On/off
-Namelock On/off
+✌Qr on/off
+✌Backup on/off
+✌Protect On/off
+✌Namelock On/off
  """
 
 KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
@@ -227,7 +227,7 @@ wait = {
     'autoAdd':False,
     'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"Auto Like Bye line.me/ti/p/~@enr7503k",
+    "comment":"Auto Like Bye line.me/ti/p/~bank60.com",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
